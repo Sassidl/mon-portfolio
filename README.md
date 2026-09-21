@@ -12,7 +12,7 @@ portfolio/
 └── assets/
     ├── style.css           # Tous les styles
     ├── script.js           # Navigation, i18n FR/EN, animations
-    ├── CV_Sassi_De_Laat.pdf   # ← À AJOUTER (ton CV)
+      ├── CV_Sassi_De_Laat.pdf   # CV téléchargeable
     └── images/             # ← Images à ajouter (voir ci-dessous)
 ```
 
