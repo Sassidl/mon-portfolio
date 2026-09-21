@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="À propos de Sassi De Laat — Data Engineer & LLMOps, étudiant ingénieur EFREI." />
+  <title>À propos — Sassi De Laat · LLMOps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Sassi De Laat</a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link" data-i18n="nav.home">Accueil</a>
+        <a href="index.html#projects" class="nav-link" data-i18n="nav.projects">Projets</a>
+        <a href="index.html#experience" class="nav-link" data-i18n="nav.experience">Expériences</a>
+        <a href="about.html" class="nav-link active" data-i18n="nav.about">À propos</a>
+        <a href="index.html#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+      </div>
+      <button class="lang-toggle" id="langToggle" aria-label="Change language">
+        <span class="lang-current">FR</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-other">EN</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ABOUT HERO -->
+  <section class="about-hero">
+    <div class="about-hero-inner">
+      <div class="about-photo">
+        <img src="assets/images/profile.jpg" alt="Sassi De Laat" onerror="this.style.display='none';this.parentElement.classList.add('no-image');" />
+        <div class="about-photo-placeholder">SDL</div>
+      </div>
+      <div class="about-intro">
+        <p class="section-label" data-i18n="about.label">À propos</p>
+        <h1 class="about-title" data-i18n="about.title">Bonjour, je suis Sassi.</h1>
+        <p class="about-lead" data-i18n="about.lead">Étudiant ingénieur à l'EFREI en majeure Big Data & Machine Learning. En alternance, j'industrialise un assistant LLM en production au Crédit Agricole — observabilité, sécurité, déploiement Kubernetes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT CONTENT -->
+  <section class="section">
+    <div class="about-content">
+      <div class="about-block">
+        <h2 class="about-heading" data-i18n="about.story.title">Mon parcours</h2>
+        <p data-i18n="about.story.p1">J'ai commencé par des classes préparatoires en biologie numérique avant de rejoindre le cycle ingénieur de l'EFREI. Ce double ancrage — sciences du vivant et informatique — m'a appris à aborder les problèmes avec rigueur et curiosité, qualités que je retrouve chaque jour dans le métier de Data Engineer.</p>
+        <p data-i18n="about.story.p2">Aujourd'hui, je travaille sur l'industrialisation d'un produit IA générative déployé auprès de 49 000 conseillers bancaires au Crédit Agricole : chaîne d'observabilité ELK, monitoring de drift, remédiation de sécurité, déploiement Helm sur Kubernetes, tirs de performance. Avant cela, j'ai contribué à la recherche à l'INSERM, et j'ai co-fondé We Love Uni, une marque de textile que nous développons depuis trois ans.</p>
+      </div>
+
+      <div class="about-block">
+        <h2 class="about-heading" data-i18n="about.approach.title">Ma vision</h2>
+        <p data-i18n="about.approach.p1">Je crois que la valeur d'un produit IA ne se situe pas dans le choix du modèle, mais dans la qualité de tout ce qui l'entoure : observabilité, fiabilisation, sécurité, gouvernance. C'est ce que le LLMOps vise à structurer, et c'est là que je veux me spécialiser.</p>
+        <p data-i18n="about.approach.p2">L'entrepreneuriat m'a appris l'autonomie et le sens des responsabilités ; la recherche scientifique, la rigueur méthodologique ; et l'alternance en grand groupe, l'importance du travail en équipe et de l'industrialisation. Je cherche aujourd'hui un CDI où je pourrai continuer à grandir sur ces trois axes.</p>
+      </div>
+
+      <div class="about-block">
+        <h2 class="about-heading" data-i18n="about.skills.title">Compétences</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <p class="skill-label" data-i18n="about.skills.lang">Langages</p>
+            <p class="skill-list">Python · Java · SQL · NoSQL · R · JavaScript · C</p>
+          </div>
+          <div class="skill-group">
+            <p class="skill-label" data-i18n="about.skills.libs">Bibliothèques</p>
+            <p class="skill-list">TensorFlow · Scikit-learn · PyTorch · NumPy · Pandas · Spark · Kafka</p>
+          </div>
+          <div class="skill-group">
+            <p class="skill-label" data-i18n="about.skills.tools">Outils & Infra</p>
+            <p class="skill-list">Kubernetes · Helm · ArgoCD · GitLab CI/CD · AWS Lambda · AWS Bedrock · Docker · ELK · FastAPI · HashiCorp Vault · SonarQube</p>
+          </div>
+          <div class="skill-group">
+            <p class="skill-label" data-i18n="about.skills.viz">LLMOps</p>
+            <p class="skill-list">RAG (pgvector) · Prompt Engineering · Drift Monitoring · Guardrails</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-block">
+        <h2 class="about-heading" data-i18n="about.beyond.title">Au-delà du code</h2>
+        <p data-i18n="about.beyond.p1">En dehors de l'écran, je suis guitariste depuis treize ans (dont cinq en conservatoire) et je touche au piano. J'aime aussi la création visuelle : direction artistique, montage vidéo sur Premiere Pro, photo sur Photoshop — des compétences que je mobilise pour We Love Uni.</p>
+      </div>
+
+      <div class="about-cta">
+        <a href="assets/CV_Sassi_De_Laat.pdf" download class="btn btn-primary" data-i18n="about.cta.cv">Télécharger mon CV</a>
+        <a href="index.html#contact" class="btn btn-ghost" data-i18n="about.cta.contact">Me contacter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div id="footer-root"></div>
+  </footer>
+
+  <script src="assets/footer.js"></script>
+  <script src="assets/script.js"></script>
+</body>
+</html>

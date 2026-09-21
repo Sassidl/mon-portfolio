@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sassi De Laat — Data Engineer & LLMOps. Étudiant ingénieur à l'EFREI, majeure Big Data & Machine Learning. Industrialisation de produits IA générative." />
+  <title>Sassi De Laat — Data Engineer · LLMOps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Sassi De Laat</a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link active" data-i18n="nav.home">Accueil</a>
+        <a href="index.html#projects" class="nav-link" data-i18n="nav.projects">Projets</a>
+        <a href="index.html#experience" class="nav-link" data-i18n="nav.experience">Expériences</a>
+        <a href="about.html" class="nav-link" data-i18n="nav.about">À propos</a>
+        <a href="index.html#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+      </div>
+      <button class="lang-toggle" id="langToggle" aria-label="Change language">
+        <span class="lang-current">FR</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-other">EN</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow" data-i18n="hero.eyebrow">Data Engineer — LLMOps</p>
+      <h1 class="hero-title">
+        <span data-i18n="hero.title.1">Du pipeline</span><br />
+        <em data-i18n="hero.title.2">au LLM en production.</em>
+      </h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">Étudiant ingénieur à l'EFREI, en alternance LLMOps au Crédit Agricole. J'industrialise des produits IA générative — observabilité, sécurité, déploiement — et j'entreprends à côté.</p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary" data-i18n="hero.cta.projects">Voir mes projets</a>
+        <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta.contact">Me contacter</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span data-i18n="hero.scroll">Défiler</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-head">
+      <p class="section-label" data-i18n="projects.label">Projets sélectionnés</p>
+      <h2 class="section-title" data-i18n="projects.title">Ce que je construis.</h2>
+      <p class="section-desc" data-i18n="projects.desc">Trois projets qui reflètent ma polyvalence : du machine learning appliqué à la conception système bas niveau, en passant par les structures de données avancées.</p>
+    </div>
+
+    <div class="grid-3">
+      <a href="https://github.com/Sassidl/Property-value-prediction" class="card" target="_blank" rel="noopener">
+        <div class="card-image">
+          <img src="assets/images/project-property.png" alt="Property Value Prediction" onerror="this.style.display='none';this.parentElement.classList.add('no-image');" />
+          <div class="card-image-placeholder"><span>01</span></div>
+        </div>
+        <div class="card-body">
+          <p class="card-meta">Python · Scikit-learn · K-Means</p>
+          <h3 class="card-title">Property Value Prediction</h3>
+          <p class="card-desc" data-i18n="project.1.desc">Algorithme prédictif de la valeur immobilière utilisant le clustering K-Means et l'analyse exploratoire pour modéliser les dynamiques de prix.</p>
+          <span class="card-link" data-i18n="project.link">Voir sur GitHub →</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/Sassidl/Java-Assembler-Simulator" class="card" target="_blank" rel="noopener">
+        <div class="card-image">
+          <img src="assets/images/project-assembly.png" alt="Assembly Simulator" onerror="this.style.display='none';this.parentElement.classList.add('no-image');" />
+          <div class="card-image-placeholder"><span>02</span></div>
+        </div>
+        <div class="card-body">
+          <p class="card-meta">Java · IDE · Systèmes</p>
+          <h3 class="card-title">Assembly Simulator</h3>
+          <p class="card-desc" data-i18n="project.2.desc">Simulateur d'IDE Assembly développé en Java. Un environnement complet pour écrire, compiler et exécuter du code bas niveau en temps réel.</p>
+          <span class="card-link" data-i18n="project.link">Voir sur GitHub →</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/Sassidl/GraphTheoryToolkit" class="card" target="_blank" rel="noopener">
+        <div class="card-image">
+          <img src="assets/images/project-graph.png" alt="Graph Theory Toolkit" onerror="this.style.display='none';this.parentElement.classList.add('no-image');" />
+          <div class="card-image-placeholder"><span>03</span></div>
+        </div>
+        <div class="card-body">
+          <p class="card-meta">Algorithmes · Structures de données</p>
+          <h3 class="card-title">Graph Theory Toolkit</h3>
+          <p class="card-desc" data-i18n="project.3.desc">Boîte à outils pour l'exploration et l'analyse de graphes : algorithmes de parcours, plus courts chemins, et visualisations interactives.</p>
+          <span class="card-link" data-i18n="project.link">Voir sur GitHub →</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section-alt" id="experience">
+    <div class="section-head">
+      <p class="section-label" data-i18n="exp.label">Parcours professionnel</p>
+      <h2 class="section-title" data-i18n="exp.title">Mes experiences professionelles</h2>
+      <p class="section-desc" data-i18n="exp.desc">Entre LLMOps dans un grand groupe bancaire, recherche scientifique et entrepreneuriat — trois expériences qui façonnent ma vision du métier.</p>
+    </div>
+
+    <div class="grid-3">
+      <article class="card card-exp">
+        <div class="card-image">
+          <img src="assets/images/exp-ca.png" alt="Crédit Agricole" onerror="this.style.display='none';this.parentElement.classList.add('no-image');" />
+          <div class="card-image-placeholder card-image-placeholder-exp"><span>CA</span></div>
+        </div>
+        <div class="card-body">
+          <p class="card-meta" data-i18n="exp.1.meta">Alternance · Oct. 2025 — Aujourd'hui</p>
+          <h3 class="card-title">Crédit Agricole — CA-TS</h3>
+          <p class="card-desc" data-i18n="exp.1.desc">Industrialisation d'un assistant LLM de rédaction de mails clients (RAG, détection d'intention), déployé auprès de 49 000 conseillers via Kubernetes et AWS Bedrock. Observabilité ELK et monitoring de drift. Tirs de performance sur socle LLM interne. Remédiation d'audit de sécurité. Initialisation d'API FastAPI et repo de déploiement Helm.</p>
+        </div>
+      </article>
+
+      <article class="card card-exp">
+        <div class="card-image">
+          <img src="assets/images/exp-inserm.png" alt="INSERM" onerror="this.style.display='none';this.parentElement.classList.add('no-image');" />
+          <div class="card-image-placeholder card-image-placeholder-exp"><span>IN</span></div>
+        </div>
+        <div class="card-body">
+          <p class="card-meta" data-i18n="exp.2.meta">Stage · Nov. 2024 — Avril 2025</p>
+          <h3 class="card-title">INSERM — IMRB</h3>
+          <p class="card-desc" data-i18n="exp.2.desc">Pipeline d'analyse automatisé pour l'extraction et la visualisation d'expressions géniques. Séquençage à noyau unique (Python/R) pour la recherche sur la myopathie de Duchenne. Contribution à un articles scientifiques.</p>
+        </div>
+      </article>
+
+      <article class="card card-exp">
+        <div class="card-image">
+          <img src="assets/images/exp-weloveuni.png" alt="We Love Uni" onerror="this.style.display='none';this.parentElement.classList.add('no-image');" />
+          <div class="card-image-placeholder card-image-placeholder-exp"><span>WLU</span></div>
+        </div>
+        <div class="card-body">
+          <p class="card-meta" data-i18n="exp.3.meta">Entrepreneuriat · Janv. 2023 — Aujourd'hui</p>
+          <h3 class="card-title">We Love Uni</h3>
+          <p class="card-desc" data-i18n="exp.3.desc">Co-fondateur d'une marque de textile. Direction artistique, gestion de projet, boutiques éphémères, communication digitale et encadrement de stagiaires. Trois ans d'aventure entrepreneuriale avec deux associés.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ABOUT TEASER -->
+  <section class="section section-teaser">
+    <div class="teaser-inner">
+      <p class="section-label" data-i18n="teaser.label">À propos</p>
+      <h2 class="teaser-title" data-i18n="teaser.title">Curieux, rigoureux, entrepreneur dans l'âme.</h2>
+      <p class="teaser-desc" data-i18n="teaser.desc">Passionné par l'industrialisation de l'IA et ce qu'elle permet de construire, je cherche à joindre technique et impact réel.</p>
+      <a href="about.html" class="btn btn-primary" data-i18n="teaser.cta">En savoir plus sur moi</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <footer class="footer" id="contact">
+    <div id="footer-root"></div>
+  </footer>
+
+  <script src="assets/footer.js"></script>
+  <script src="assets/script.js"></script>
+</body>
+</html>
