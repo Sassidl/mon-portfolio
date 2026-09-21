@@ -13,7 +13,7 @@ function loadFooter(variant = 'full') {
         <p class="footer-desc" data-i18n="contact.desc">Étudiant ingénieur en informatique, je recherche un CDI en Data Engineering et LLMOps.</p>
       </div>
       <div class="footer-ctas">
-        <a href="assets/CV_Sassi_De_Laat.pdf" download class="btn btn-primary" data-i18n="contact.cv">Télécharger mon CV</a>
+        <a href="assets/CV.pdf" download class="btn btn-primary" data-i18n="contact.cv">Télécharger mon CV</a>
       </div>
     </div>
   ` : '';
